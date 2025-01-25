@@ -17,7 +17,7 @@ This project demonstrates the design and implementation of a gesture-controlled 
 - Battery
 - Robotic Car Chassis
 
-![Circuit](schematic.png)
+![Circuit](schematic.PNG)
 
 ## Software Components
 - Arduino IDE
