@@ -7,7 +7,7 @@ This project demonstrates the design and implementation of a gesture-controlled 
 - **Obstacle Avoidance**: Ultrasonic sensor detects obstacles and overrides gesture commands to prevent collisions.
 - **FreeRTOS Integration**: Real-time task prioritization ensures efficient and safe operation.
 
-
+![Circuit](schematic.PNG)
 
 ## Hardware Components
 - ESP32 Microcontrollers (x2)
@@ -17,7 +17,8 @@ This project demonstrates the design and implementation of a gesture-controlled 
 - Battery
 - Robotic Car Chassis
 
-![Circuit](schematic.PNG)
+![Glove](glove-prototype.PNG)
+## used 1 flex sensor in the projecct, but multiple flex sensors can be used as shown in the image to improve robot control ##
 
 ## Software Components
 - Arduino IDE
@@ -37,7 +38,7 @@ This project demonstrates the design and implementation of a gesture-controlled 
    - Power both ESP32 devices and ensure they connect to the same WiFi network.
 
 4. **Control the Robot**:
-   - Use the glove to make gestures and control the robot's movement. The robot will stop automatically if an obstacle is detected.
+   - Use the glove to make gestures and control the robot's movement. The robot will stop/turn automatically if an obstacle is detected.
 
 ## Code Structure
 - `server_esp32.ino`: Handles flex sensor input and sends commands to the client.
@@ -47,9 +48,3 @@ This project demonstrates the design and implementation of a gesture-controlled 
 - Expand gesture library for more complex controls.
 - Implement path planning algorithms for autonomous navigation.
 - Use advanced wireless protocols like ZigBee or LoRa for extended range.
-
-## Contributors
-- [Your Name](https://github.com/yourusername)
-
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
