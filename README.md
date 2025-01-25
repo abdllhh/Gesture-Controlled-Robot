@@ -41,8 +41,8 @@ This project demonstrates the design and implementation of a gesture-controlled 
    - Use the glove to make gestures and control the robot's movement. The robot will stop/turn automatically if an obstacle is detected.
 
 ## Code Structure
-- `server_esp32.ino`: Handles flex sensor input and sends commands to the client.
-- `client_esp32.ino`: Controls the robot's motors and implements obstacle avoidance.
+- `server.ino`: Handles flex sensor input and sends commands to the client.
+- `client.ino`: Controls the robot's motors and implements obstacle avoidance.
 
 ## Future Enhancements
 - Expand gesture library for more complex controls.
