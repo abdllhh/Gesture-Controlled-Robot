@@ -27,8 +27,8 @@ This project demonstrates the design and implementation of a gesture-controlled 
 
 ## Setup Instructions
 1. **Upload Code**:
-   - Upload `server_esp32.ino` to the ESP32 connected to the flex sensor.
-   - Upload `client_esp32.ino` to the ESP32 mounted on the robotic car.
+   - Upload `server.ino` to the ESP32 connected to the flex sensor.
+   - Upload `client.ino` to the ESP32 mounted on the robotic car.
 
 2. **Connect Hardware**:
    - Connect the flex sensor to the server ESP32.
