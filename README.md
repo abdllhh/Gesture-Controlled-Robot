@@ -17,6 +17,8 @@ This project demonstrates the design and implementation of a gesture-controlled 
 - Battery
 - Robotic Car Chassis
 
+![Circuit](/schematic.png)
+
 ## Software Components
 - Arduino IDE
 - FreeRTOS for ESP32
