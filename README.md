@@ -18,7 +18,7 @@ This project demonstrates the design and implementation of a gesture-controlled 
 - Robotic Car Chassis
 
 ![Glove](glove-prototype.PNG)
-## used 1 flex sensor in the projecct, but multiple flex sensors can be used as shown in the image to improve robot control ##
+#### (used 1 flex sensor in the project, but multiple flex sensors can be used as shown in the image to improve robot control) ####
 
 ## Software Components
 - Arduino IDE
