@@ -36,5 +36,14 @@ return "STOP";
 }
 }
 
-
+// if (obstacle_detected && distance < CRITICAL_THRESHOLD) {
+//     // Safety override - stop immediately
+//     execute_emergency_stop();
+// } else if (obstacle_detected && distance < WARNING_THRESHOLD) {
+//     // Reduce speed but allow gesture control
+//     apply_gesture_command(speed * 0.5);
+// } else {
+//     // Full manual control
+//     apply_gesture_command(speed);
+// }
 
